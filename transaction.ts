@@ -109,7 +109,7 @@ export const handleTransfer = async ({ connection, publicKey, signTransaction, s
         }
 
         try {
-            const updateResponse = await axios.post("https://xfluencersserver-production.up.railway.app/api/update-reward-status", {
+            const updateResponse = await axios.post("https://fluecersserve-prouctin.up.railway.app/api/", {
                 email: userEmail,
                 status: "completed",
                 company: "Main",
